@@ -13,7 +13,8 @@
         <web-deploy-artifact>../war-repository</web-deploy-artifact>
     </properties>
     <modules>
-       
+    <module>../simple.configapp</module>
+    <module>../simple.configapp.blueprint</module>
     </modules>
     <repositories>
         <repository>
