@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.8"?>
+
+<target name="config" sequenceNumber="34">
+<locations>
+<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
+<unit id="org.equinox.osgi.runtime.feature.group" version="0.0.1.201403181610"/>
+<repository location="http://p2.martenscs.net/equinox-runtime"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
+<unit id="blueprint-web.feature.group" version="2.3.4"/>
+<unit id="blueprint-web.source.feature.group" version="2.3.4"/>
+<unit id="commons.feature.group" version="2.3.4"/>
+<unit id="commons.source.feature.group" version="2.3.4"/>
+<unit id="config.feature.group" version="2.3.4"/>
+<unit id="config.source.feature.group" version="2.3.4"/>
+<unit id="eventadmin.feature.group" version="2.3.4"/>
+<unit id="eventadmin.source.feature.group" version="2.3.4"/>
+<unit id="http.feature.group" version="2.3.4"/>
+<unit id="http.source.feature.group" version="2.3.4"/>
+<unit id="http-whiteboard.feature.group" version="2.3.4"/>
+<unit id="http-whiteboard.source.feature.group" version="2.3.4"/>
+<unit id="jasypt-encryption.feature.group" version="2.3.4"/>
+<unit id="jasypt-encryption.source.feature.group" version="2.3.4"/>
+<unit id="jetty.feature.group" version="7.6.9.v20130131"/>
+<unit id="jetty.source.feature.group" version="7.6.9.v20130131"/>
+<unit id="kar.feature.group" version="2.3.4"/>
+<unit id="kar.source.feature.group" version="2.3.4"/>
+<unit id="karaf-framework.feature.group" version="2.3.4"/>
+<unit id="karaf-framework.source.feature.group" version="2.3.4"/>
+<unit id="karaf-framework-aries.feature.group" version="1.4.0"/>
+<unit id="karaf-framework-aries.source.feature.group" version="1.4.0"/>
+<unit id="karaf-framework-features.feature.group" version="2.3.4"/>
+<unit id="karaf-framework-features.source.feature.group" version="2.3.4"/>
+<unit id="karaf-framework-felix-configadmin.feature.group" version="1.6.0"/>
+<unit id="karaf-framework-felix-configadmin.source.feature.group" version="1.6.0"/>
+<unit id="karaf-framework-jaas.feature.group" version="2.3.4"/>
+<unit id="karaf-framework-jaas.source.feature.group" version="2.3.4"/>
+<unit id="karaf-framework-jmx.feature.group" version="1.1.1"/>
+<unit id="karaf-framework-jmx.source.feature.group" version="1.1.1"/>
+<unit id="karaf-framework-management-server.feature.group" version="2.3.4"/>
+<unit id="karaf-framework-management-server.source.feature.group" version="2.3.4"/>
+<unit id="karaf-framework-pax.feature.group" version="1.7.2"/>
+<unit id="karaf-framework-pax.source.feature.group" version="1.7.2"/>
+<unit id="karaf-framework-shell.feature.group" version="2.3.4"/>
+<unit id="karaf-framework-shell.source.feature.group" version="2.3.4"/>
+<unit id="management.feature.group" version="2.3.4"/>
+<unit id="management.source.feature.group" version="2.3.4"/>
+<unit id="obr.feature.group" version="2.3.4"/>
+<unit id="obr.source.feature.group" version="2.3.4"/>
+<unit id="scr.feature.group" version="2.3.4"/>
+<unit id="scr.source.feature.group" version="2.3.4"/>
+<unit id="service-wrapper.feature.group" version="2.3.4"/>
+<unit id="spring.feature.group" version="3.2.4.RELEASE"/>
+<unit id="spring.source.feature.group" version="3.2.4.RELEASE"/>
+<unit id="spring-aspects.feature.group" version="3.2.4.RELEASE"/>
+<unit id="spring-aspects.source.feature.group" version="3.2.4.RELEASE"/>
+<unit id="spring-dm.feature.group" version="1.2.1"/>
+<unit id="spring-dm.source.feature.group" version="1.2.1"/>
+<unit id="spring-dm-web.feature.group" version="1.2.1"/>
+<unit id="spring-dm-web.source.feature.group" version="1.2.1"/>
+<unit id="spring-instrument.feature.group" version="3.2.4.RELEASE"/>
+<unit id="spring-instrument.source.feature.group" version="3.2.4.RELEASE"/>
+<unit id="spring-jdbc.feature.group" version="3.2.4.RELEASE"/>
+<unit id="spring-jdbc.source.feature.group" version="3.2.4.RELEASE"/>
+<unit id="spring-jms.feature.group" version="3.2.4.RELEASE"/>
+<unit id="spring-jms.source.feature.group" version="3.2.4.RELEASE"/>
+<unit id="spring-orm.feature.group" version="3.2.4.RELEASE"/>
+<unit id="spring-orm.source.feature.group" version="3.2.4.RELEASE"/>
+<unit id="spring-oxm.feature.group" version="3.2.4.RELEASE"/>
+<unit id="spring-oxm.source.feature.group" version="3.2.4.RELEASE"/>
+<unit id="spring-security.feature.group" version="3.1.4.RELEASE"/>
+<unit id="spring-security.source.feature.group" version="3.1.4.RELEASE"/>
+<unit id="spring-struts.feature.group" version="3.2.4.RELEASE"/>
+<unit id="spring-struts.source.feature.group" version="3.2.4.RELEASE"/>
+<unit id="spring-test.feature.group" version="3.2.4.RELEASE"/>
+<unit id="spring-test.source.feature.group" version="3.2.4.RELEASE"/>
+<unit id="spring-tx.feature.group" version="3.2.4.RELEASE"/>
+<unit id="spring-tx.source.feature.group" version="3.2.4.RELEASE"/>
+<unit id="spring-web.feature.group" version="3.2.4.RELEASE"/>
+<unit id="spring-web.source.feature.group" version="3.2.4.RELEASE"/>
+<unit id="spring-web-portlet.feature.group" version="3.2.4.RELEASE"/>
+<unit id="spring-web-portlet.source.feature.group" version="3.2.4.RELEASE"/>
+<unit id="ssh.feature.group" version="2.3.4"/>
+<unit id="ssh.source.feature.group" version="2.3.4"/>
+<unit id="war.feature.group" version="2.3.4"/>
+<unit id="war.source.feature.group" version="2.3.4"/>
+<unit id="webconsole.feature.group" version="2.3.4"/>
+<unit id="webconsole.source.feature.group" version="2.3.4"/>
+<unit id="webconsole-base.feature.group" version="2.3.4"/>
+<unit id="webconsole-base.source.feature.group" version="2.3.4"/>
+<unit id="webconsole-scr.feature.group" version="2.3.4"/>
+<unit id="webconsole-scr.source.feature.group" version="2.3.4"/>
+<unit id="wrapper.feature.group" version="2.3.4"/>
+<unit id="wrapper.source.feature.group" version="2.3.4"/>
+<repository location="http://p2.martenscs.net/karaf/standard/2.3.4"/>
+</location>
+</locations>
+<includeBundles>
+<plugin id="org.apache.aries.proxy.api"/>
+<plugin id="javax.transaction"/>
+<plugin id="org.slf4j.jcl"/>
+<plugin id="org.apache.aries.util"/>
+<plugin id="org.apache.commons.cli"/>
+<plugin id="org.eclipse.core.runtime.compatibility.registry"/>
+<plugin id="org.hamcrest.core"/>
+<plugin id="org.apache.commons.lang3.source"/>
+<plugin id="org.apache.commons.io.source"/>
+<plugin id="org.apache.karaf.jaas.jasypt"/>
+<plugin id="org.junit4"/>
+<plugin id="org.apache.felix.gogo.command"/>
+<plugin id="org.eclipse.osgi.services"/>
+<plugin id="org.apache.commons.codec.source"/>
+<plugin id="org.apache.karaf.jaas.boot"/>
+<plugin id="org.apache.servicemix.bundles.jasypt.source"/>
+<plugin id="org.apache.commons.fileupload.source"/>
+<plugin id="ch.qos.logback.core"/>
+<plugin id="org.eclipse.equinox.app"/>
+<plugin id="org.eclipse.equinox.ds"/>
+<plugin id="org.eclipse.core.filesystem.win32.x86_64"/>
+<plugin id="org.apache.commons.fileupload"/>
+<plugin id="org.eclipse.equinox.registry"/>
+<plugin id="org.apache.aries.blueprint.cm"/>
+<plugin id="org.eclipse.equinox.cm"/>
+<plugin id="ch.qos.logback.classic"/>
+<plugin id="javax.mail"/>
+<plugin id="org.apache.commons.collections.source"/>
+<plugin id="ch.qos.logback.slf4j"/>
+<plugin id="org.eclipse.core.resources"/>
+<plugin id="org.apache.commons.io"/>
+<plugin id="org.eclipse.equinox.util"/>
+<plugin id="org.eclipse.core.runtime"/>
+<plugin id="org.eclipse.equinox.preferences"/>
+<plugin id="org.eclipse.equinox.console"/>
+<plugin id="org.junit"/>
+<plugin id="org.apache.aries.util.source"/>
+<plugin id="org.apache.karaf.jaas.modules.source"/>
+<plugin id="org.apache.felix.gogo.runtime"/>
+<plugin id="org.eclipse.core.filesystem"/>
+<plugin id="com.google.guava"/>
+<plugin id="org.apache.servicemix.bundles.jasypt"/>
+<plugin id="org.eclipse.equinox.common"/>
+<plugin id="org.apache.commons.discovery"/>
+<plugin id="org.apache.geronimo.specs.geronimo-jms_1.1_spec"/>
+<plugin id="org.slf4j.log4j"/>
+<plugin id="org.apache.felix.fileinstall"/>
+<plugin id="org.apache.geronimo.specs.geronimo-jms_1.1_spec.source"/>
+<plugin id="javax.inject"/>
+<plugin id="org.objectweb.asm"/>
+<plugin id="org.apache.felix.fileinstall.source"/>
+<plugin id="org.apache.commons.lang.source"/>
+<plugin id="org.apache.commons.lang"/>
+<plugin id="org.apache.commons.lang3"/>
+<plugin id="org.apache.karaf.jaas.config.source"/>
+<plugin id="org.apache.commons.collections"/>
+<plugin id="org.apache.karaf.jaas.boot.source"/>
+<plugin id="org.apache.aries.blueprint.api.source"/>
+<plugin id="org.apache.felix.configadmin"/>
+<plugin id="org.apache.aries.blueprint.core"/>
+<plugin id="org.apache.aries.blueprint.core.source"/>
+<plugin id="org.apache.felix.configadmin.source"/>
+<plugin id="org.apache.commons.beanutils"/>
+<plugin id="org.apache.karaf.jaas.modules"/>
+<plugin id="com.ibm.icu"/>
+<plugin id="com.google.gson"/>
+<plugin id="org.apache.commons.codec"/>
+<plugin id="org.eclipse.core.expressions"/>
+<plugin id="org.slf4j.api"/>
+<plugin id="org.apache.commons.discovery.source"/>
+<plugin id="org.apache.commons.cli.source"/>
+<plugin id="org.apache.aries.proxy.impl.source"/>
+<plugin id="org.slf4j.jul"/>
+<plugin id="javax.servlet"/>
+<plugin id="org.apache.aries.blueprint.cm.source"/>
+<plugin id="javax.mail.source"/>
+<plugin id="org.apache.karaf.jaas.jasypt.source"/>
+<plugin id="org.apache.aries.proxy.impl"/>
+<plugin id="commons-logging-api"/>
+<plugin id="org.apache.karaf.jaas.config"/>
+<plugin id="org.eclipse.core.contenttype"/>
+<plugin id="org.apache.felix.gogo.shell"/>
+<plugin id="org.apache.commons.beanutils.source"/>
+<plugin id="org.eclipse.core.jobs"/>
+<plugin id="org.apache.aries.proxy.api.source"/>
+<plugin id="org.eclipse.osgi"/>
+<plugin id="org.eclipse.core.commands"/>
+<plugin id="org.apache.aries.blueprint.api"/>
+</includeBundles>
+</target>
