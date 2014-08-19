@@ -1,4 +1,4 @@
-package simple.configapp;
+package simple.configapp.spring;
 
 import org.slf4j.Logger;
 
